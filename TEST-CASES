@@ -1,0 +1,124 @@
+These are the four test cases, we have to check this program. 
+if we give these input the to our programs ar runtime our program must give the mentioned output . if outputs do not match as mentioned
+then program is not worling fine.
+
+TEST CASE 1
+{
+Enter the number of process : 4
+Enter the Brust time for process 1 : 10
+
+Enter the Brust time for process 2 : 14
+
+Enter the Brust time for process 3 : 15
+
+Enter the Brust time for process 4 : 8
+
+
+                Waiting Time    |       Turn around Time
+
+Process 3               0               8
+
+Process 0               8               18
+
+Process 1               18              32
+
+Process 2               32              47
+
+
+Avarage waiting time : 14.5
+Avarage turn around time : 26.25
+--------------------------------
+}
+
+
+TEST CASE 2
+{
+Enter the number of process : 5
+Enter the Brust time for process 1 : 10
+
+Enter the Brust time for process 2 : 16
+
+Enter the Brust time for process 3 : 40
+
+Enter the Brust time for process 4 : 15
+
+Enter the Brust time for process 5 : 20
+
+
+                Waiting Time    |       Turn around Time
+
+Process 0               0               10
+
+Process 3               10              25
+
+Process 1               25              41
+
+Process 4               41              61
+
+Process 2               61              101
+
+
+Avarage waiting time : 27.4
+Avarage turn around time : 47.6
+-------------------------------
+}
+
+TEST CASE 3
+{
+Enter the number of process : 3
+Enter the Brust time for process 1 : 10
+
+Enter the Brust time for process 2 : 17
+
+Enter the Brust time for process 3 : 25
+
+
+                Waiting Time    |       Turn around Time
+
+Process 0               0               10
+
+Process 1               10              27
+
+Process 2               27              52
+
+
+Avarage waiting time : 12.3333
+Avarage turn around time : 29.6667
+--------------------------------
+}
+
+TEST CASE 4
+{
+  Enter the number of process : 6
+Enter the Brust time for process 1 : 14
+
+Enter the Brust time for process 2 : 15
+
+Enter the Brust time for process 3 : 10
+
+Enter the Brust time for process 4 : 20
+
+Enter the Brust time for process 5 : 8
+
+Enter the Brust time for process 6 : 5
+
+
+                Waiting Time    |       Turn around Time
+
+Process 5               0               5
+
+Process 4               5               13
+
+Process 2               13              23
+
+Process 0               23              37
+
+Process 1               37              52
+
+Process 3               52              72
+
+
+Avarage waiting time : 21.6667
+Avarage turn around time : 33.6667
+--------------------------------
+}

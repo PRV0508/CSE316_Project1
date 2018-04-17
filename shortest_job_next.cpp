@@ -1,37 +1,7 @@
 /*AIM
-               To simulate CPU scheduling, using Shortest Job First(SJF) Scheduling algorithms.
- 
+Â Â Â Â Â Â Â Â Â Â Â Â Â Â  To simulate CPU scheduling, using Shortest Job First(SJF) Scheduling algorithms.
 
-Program Description:
- 
-              
-			 Shortest Job First is a non-preemptive Scheduling discipline in which 
-the waiting job with the smallest estimated run-time-to completion is run next. It depicts the 
-order in which the processes are executed, calculates the turnaround time and average waiting time of the
-processes based on burst time for SJF scheduling.
- 
-
-Algorithm:
-
-
-1.      Start of algorithm.
-
-2.      Declare the required variables
-
-3.      Get the process name, and burst time for each process.
-
-4.      Arrange the processor in ascending order according to the lowest burst time
-
-5.      Calculate the average waiting time and average turn around time using the following formulas.
-                   
-	Average Waiting Time = (wt1+wt2+…+wtn) / n where 
-                
-	Average turn around time = ((wt1+wt2+…+wtn) + (bt1+bt2+…+btn)) / n
-
-6.      Print the Process name, average waiting time and average turnaround time for each process.           
-
-7.      Terminate the program.
-               
+Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
 
 //Program : Shortest Job First Scheduling Algorithm   */
 
